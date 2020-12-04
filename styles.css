@@ -102,9 +102,77 @@ header {
 
 /* end header section */
 
+/* main section */
 main {
     width: 100%;
     height: auto;
 }
+
+.first-main--section,
+.main-numbers--container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.image-container {
+    width: auto;
+    min-width: 288px;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.main-numbers--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-numbers--left,
+.main-numbers--right {
+    width: 50%;
+    min-width: 230px;
+    max-width: 560px;
+}
+
+.communities-icon, 
+.message-icon {
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 140px;
+}
+
+.communities-icon {
+    background-image: url(./images/icon-communities.svg);
+}
+
+.message-icon {
+    background-image: url(./images/icon-messages.svg);
+}
+.main-number {
+    font-size: 4.2rem;
+    font-weight: bold;
+    line-height: 2.8rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.main-number--description {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #808080;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
