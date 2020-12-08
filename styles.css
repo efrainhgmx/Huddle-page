@@ -204,6 +204,7 @@ main {
 .article-title {
     font-size: 1.8rem;
     line-height: 1.8rem;
+    margin-bottom: 15px;
 }
 
 .article-description {
@@ -239,6 +240,15 @@ main {
     background-image: url(./images/bg-section-bottom-mobile-2.svg);
 }
 
+.background-first--top,
+.background-second--top {
+    margin-top: 40px;
+}
+
+.background-first--bottom,
+.background-second--bottom {
+    margin-bottom: 40px;
+}
 .section-one,
 .section-two {
     background-color: #f6fbff;
