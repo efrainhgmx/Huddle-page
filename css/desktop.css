@@ -1,0 +1,44 @@
+/* header section */
+.header-main--container {
+    width: 62%;
+}
+
+.header-title {
+    font-size: 3rem;
+}
+
+.header-content--description {
+    font-size: 2rem;
+}
+/* end header section */
+
+/* Main number section */
+.main-numbers--container {
+    flex-direction: row;
+}
+
+.communities-icon, .message-icon {
+    position: relative;
+    left: 125px;
+    margin-bottom: 15px;
+}
+
+.main-number {
+    font-size: 7rem;
+    line-height: 4.2rem;
+}
+
+.main-number--description {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+}
+/* end number section */
+
+/* Second section articles */
+.article-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6fbff;
+    margin: 0;
+}
