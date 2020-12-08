@@ -62,3 +62,16 @@
 .order {
     order: -1;
 }
+/* end articles section */
+
+/* footer section  */
+.footer-background--top {
+    height: 150px;
+    border: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+/* end footer section */
