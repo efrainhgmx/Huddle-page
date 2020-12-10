@@ -9,6 +9,14 @@ label input {
      font-size: 1.5rem;
  }
 
+ #check {
+     width: initial;
+ }
+
+ .check {
+     font-size: 1.3rem;
+ }
+
  #submit {
      font-size: 1.4rem;
  }
