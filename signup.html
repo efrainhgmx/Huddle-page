@@ -19,7 +19,7 @@
             <form action="">
                 <label for="name">
                     <span>Name</span>
-                    <input type="text" name="name" id="name" required>
+                    <input type="text" name="name" id="name" autocomplete="name" required>
                 </label>
                 <label for="last-name">
                     <span>Last Name</span>
@@ -31,13 +31,17 @@
                 </label>
                 <label for="email">
                     <span>Mail</span>
-                    <input type="email" name="email" id="email" required>
+                    <input type="email" name="email" id="email" autocomplete="mail" required>
                 </label>
 
                 <label for="password">
                     <span>Password</span>
                     <input type="password" name="password" id="password" required>
                 </label>
+                <div class="check-container">
+                <span class="conditions"> <input type="checkbox" required> I agree terms and conditions</span>
+                <input type="button" name="submit" id="submit" value="Start Now">
+                </div>
             </form>
         </section>
     </main>

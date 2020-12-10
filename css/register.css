@@ -6,6 +6,7 @@
 
 :root {
     --pink: hsl(322, 100%, 66%);
+    --light-red: hsl(0, 100%, 63%);
 }
 
 html {
@@ -72,4 +73,18 @@ form {
 
 span {
     display: block;
+}
+
+ label input {
+    border: none;
+    border-bottom: 1px solid var(--light-red);
+}
+
+.check-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.conditions {
+    display: inline-block;
 }
