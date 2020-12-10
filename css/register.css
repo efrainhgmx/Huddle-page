@@ -76,15 +76,27 @@ span {
 }
 
  label input {
+    font-family: 'Open Sans', sans-serif;
     border: none;
     border-bottom: 1px solid var(--light-red);
+    padding: 5px;
 }
 
+input::placeholder {
+    text-align: center;
+}
+ 
 .check-container {
     display: flex;
     flex-direction: column;
 }
 
-.conditions {
-    display: inline-block;
+#submit {
+    margin-top: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--pink);
+    color: white;
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.4);
+    height: 35px;
 }
