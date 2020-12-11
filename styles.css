@@ -36,7 +36,7 @@ header {
     min-height: 480px;
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .header-logo--container {
@@ -400,5 +400,6 @@ ul li {
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+.attribution a:hover { color: white; }
 
 /* end footer section */
