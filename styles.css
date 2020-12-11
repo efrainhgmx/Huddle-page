@@ -95,12 +95,17 @@ header {
     width: 70%;
     max-width: 320px;
     height: 50px;
-    font-size: 1.4rem;
     border: none;
     border-radius: 25px;
     background-color: var(--pink);
-    color: white;
     box-shadow: 0 6px 4px rgba(0, 0, 0, 0.46);
+}
+
+.button--start a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: white;
+    padding: 20px;
 }
 
 .button--start:hover {
