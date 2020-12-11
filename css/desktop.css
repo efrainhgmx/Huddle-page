@@ -3,6 +3,10 @@
     width: 62%;
 }
 
+.logo-container {
+    width: 170px;
+}
+
 .header-title {
     font-size: 3rem;
 }
@@ -46,7 +50,7 @@
 .background-first--bottom,
 .background-second--top,
 .background-second--bottom {
-    height: 302px;
+    height: 280px;
 } 
 
 .article-title {
@@ -73,5 +77,9 @@
 footer {
     display: flex;
     justify-content: space-between;
+}
+
+.about-huddle--container {
+    margin-left: 15px;
 }
 /* end footer section */

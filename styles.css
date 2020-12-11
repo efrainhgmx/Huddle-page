@@ -21,6 +21,10 @@ h3 {
     font-family: 'Poppins', sans-serif;
 }
 
+ul {
+    list-style: none;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
